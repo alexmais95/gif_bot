@@ -20,6 +20,7 @@ class Gif:
 
         except ApiException as e:
             print("Exception when calling DefaultApi->gifs_search_get: %s\n" % e)
-        return giff.embed_url
+
+        return giff.id
 
 

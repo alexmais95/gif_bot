@@ -5,17 +5,17 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message
 from API import Gif
 from setting import TOKEN
-
+from aiogram.types import URLInputFile
 
 TOKEN = TOKEN
 dp = Dispatcher()
 gif = Gif()
 
 
-
 @dp.message()
-async def start(message: types.Message) -> None:
-    await message.answer(gif.get_gif(message.text))
+async def start(message: types.input_file) -> None:
+    id = gif.get_gif(message.text)
+    await message.answer_document(f'https://media1.giphy.com/media/{id}/200.gif')
 
 
 async def main() -> None:
