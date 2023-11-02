@@ -40,7 +40,7 @@ async def get_gif(message: Message, state: FSMContext) -> None:
 async def pagination_handler(call: CallbackQuery, callback_data: keibords.Pagination):
     try:
         page_num = int(callback_data.page)
-        page = page_num - 1 if page_num > 0 else 0
+        page = page_num
         if callback_data.action == 'prev':
             if page_num > 0:
                 page = page_num - 1
