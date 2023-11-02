@@ -1,14 +1,15 @@
 import giphy_client
 from giphy_client.rest import ApiException
 import random
-from setting import API
+from setting import API_GIF, NASA_API
+from nasaapi import Client
 
 
 class Gif:
     def __init__(self):
         self.api_instance = giphy_client.DefaultApi()
         self.url = "http://api.giphy.com/v1/gifs/search"
-        self.api_key = API
+        self.api_key = API_GIF
         self.rating = 'g'
         self.fmt = 'json'
 
@@ -23,4 +24,8 @@ class Gif:
 
         return giff.id
 
+class Nasa:
+    def __init__(self):
+        self.API = NASA_API
+        self.client = Client(self.API)
 

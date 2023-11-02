@@ -5,12 +5,13 @@ from aiogram.types import Message
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from API import Gif
-from setting import TOKEN
+from setting import TOKEN_BOT
 import keibords
 import media
 
 dp = Dispatcher()
 router = Router()
+dp.include_router(router)
 gif = Gif()
 
 
@@ -40,10 +41,17 @@ async def start(message: Message) -> None:
 async def start(message: Message) -> None:
     await message.answer_audio(audio=media.muz, reply_markup=keibords.main_kb)
 
+@dp.message()
+async def text(message: Message) -> None:
+    msg = message.text.lower()
+
+    if msg == 'link':
+        await message.answer('Telegram_autor_url:', reply_markup=keibords.in_kb)
+
+
 
 async def main() -> None:
-    bot = Bot(TOKEN, parse_mode=ParseMode.HTML)
-    dp.include_router(router)
+    bot = Bot(TOKEN_BOT, parse_mode=ParseMode.HTML)
     await dp.start_polling(bot)
 
 

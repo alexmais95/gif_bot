@@ -13,3 +13,11 @@ main_kb = ReplyKeyboardMarkup(
     input_field_placeholder='Chuse one params',
     selective=True
 )
+
+in_kb = InlineKeyboardMarkup(
+    inline_keyboard=[
+        [
+            InlineKeyboardButton(text='Telegram', url='tg://resolve?domain=AlexandrMais')
+        ]
+    ]
+)
