@@ -1,8 +1,7 @@
 import giphy_client
 from giphy_client.rest import ApiException
-import random
-from setting import API_GIF, NASA_API
-from nasaapi import Client
+from setting import API_GIF
+# from nasaapi import Client
 
 
 class Gif:
@@ -16,16 +15,15 @@ class Gif:
     def get_gif(self, search):
         try:
             api_response = self.api_instance.gifs_search_get(self.api_key, search, rating=self.rating, limit=5)
-            lst_ = list(api_response.data)
-            giff = random.choice(lst_)
+            data_api = list(api_response.data)
 
         except ApiException as e:
             print("Exception when calling DefaultApi->gifs_search_get: %s\n" % e)
 
-        return giff.id
+        return data_api
 
-class Nasa:
-    def __init__(self):
-        self.API = NASA_API
-        self.client = Client(self.API)
 
+# class Nasa:
+#     def __init__(self):
+#         self.API = NASA_API
+#         self.client = Client(self.API)
