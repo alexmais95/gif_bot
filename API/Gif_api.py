@@ -1,7 +1,6 @@
 import giphy_client
 from giphy_client.rest import ApiException
-from setting import API_GIF
-# from nasaapi import Client
+from settings.settings import API_GIF
 
 
 class Gif:
@@ -21,9 +20,3 @@ class Gif:
             print("Exception when calling DefaultApi->gifs_search_get: %s\n" % e)
 
         return data_api
-
-
-# class Nasa:
-#     def __init__(self):
-#         self.API = NASA_API
-#         self.client = Client(self.API)
