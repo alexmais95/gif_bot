@@ -11,8 +11,8 @@ class Pagination(CallbackData, prefix='relod'):
 def paginator(page: int = 0):
     bilder = InlineKeyboardBuilder()
     bilder.row(
-        InlineKeyboardButton(text='←', callback_data=Pagination(action='prev', page=page, text='text').pack()),
-        InlineKeyboardButton(text='→', callback_data=Pagination(action='next', page=page, text='text').pack()),
+        InlineKeyboardButton(text='←', callback_data=Pagination(action='prev', page=page).pack()),
+        InlineKeyboardButton(text='→', callback_data=Pagination(action='next', page=page).pack()),
         width=2
 
     )
