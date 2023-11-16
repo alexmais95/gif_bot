@@ -4,6 +4,10 @@ from aiogram.enums import ParseMode
 from settings.settings import TOKEN_BOT
 from handlers import user_comand
 from callback import callbackquery
+from log_conf.log import BasicLog
+
+b_log = BasicLog()
+log = b_log.log_config()
 
 
 async def main() -> None:
@@ -13,6 +17,7 @@ async def main() -> None:
         user_comand.router,
         callbackquery.router
     )
+    log.info('Start work')
     await dp.start_polling(bot)
 
 

@@ -1,0 +1,75 @@
+2023-11-16 16:41:00,894 - log_conf.log - DEBUG - h
+2023-11-16 16:42:25,071 - log_conf.log - INFO - Start work
+2023-11-16 16:49:33,233 - t_bot.py - main - INFO - Start work
+2023-11-16 20:21:37,624 - t_bot.py - main - INFO - Start work
+2023-11-16 20:36:26,703 - t_bot.py - main - INFO - Start work
+2023-11-16 20:36:26,703 - t_bot.py - main - INFO - Start work
+2023-11-16 20:36:26,703 - t_bot.py - main - INFO - Start work
+2023-11-16 20:36:41,964 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:36:41,964 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:36:41,964 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:37:01,741 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:37:01,741 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:37:01,741 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:44:38,635 - t_bot.py - main - INFO - Start work
+2023-11-16 20:44:38,635 - t_bot.py - main - INFO - Start work
+2023-11-16 20:44:38,635 - t_bot.py - main - INFO - Start work
+2023-11-16 20:44:49,608 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:44:49,608 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:44:49,608 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:49:04,186 - t_bot.py - main - INFO - Start work
+2023-11-16 20:49:04,186 - t_bot.py - main - INFO - Start work
+2023-11-16 20:49:04,186 - t_bot.py - main - INFO - Start work
+2023-11-16 20:49:09,678 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:49:09,678 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:49:09,678 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:51:33,885 - t_bot.py - main - INFO - Start work
+2023-11-16 20:51:33,885 - t_bot.py - main - INFO - Start work
+2023-11-16 20:51:33,885 - t_bot.py - main - INFO - Start work
+2023-11-16 20:51:37,577 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:51:37,577 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:51:37,577 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:54:32,889 - t_bot.py - main - INFO - Start work
+2023-11-16 20:54:32,889 - t_bot.py - main - INFO - Start work
+2023-11-16 20:54:32,889 - t_bot.py - main - INFO - Start work
+2023-11-16 20:54:45,225 - user_comand.py - get_gif - INFO - request for make gif
+2023-11-16 20:54:45,225 - user_comand.py - get_gif - INFO - request for make gif
+2023-11-16 20:54:45,225 - user_comand.py - get_gif - INFO - request for make gif
+2023-11-16 20:55:11,051 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:55:11,051 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 20:55:11,051 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 21:03:31,370 - t_bot.py - main - INFO - Start work
+2023-11-16 21:03:31,370 - t_bot.py - main - INFO - Start work
+2023-11-16 21:03:31,370 - t_bot.py - main - INFO - Start work
+2023-11-16 21:03:33,898 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 21:03:33,898 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 21:03:33,898 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 21:03:56,999 - user_comand.py - get_gif - INFO - request for make gif
+2023-11-16 21:03:56,999 - user_comand.py - get_gif - INFO - request for make gif
+2023-11-16 21:03:56,999 - user_comand.py - get_gif - INFO - request for make gif
+2023-11-16 21:06:13,866 - t_bot.py - main - INFO - Start work
+2023-11-16 21:06:13,866 - t_bot.py - main - INFO - Start work
+2023-11-16 21:06:13,866 - t_bot.py - main - INFO - Start work
+2023-11-16 21:06:19,255 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 21:06:19,255 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 21:06:19,255 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 21:07:57,112 - t_bot.py - main - INFO - Start work
+2023-11-16 21:07:57,112 - t_bot.py - main - INFO - Start work
+2023-11-16 21:07:57,112 - t_bot.py - main - INFO - Start work
+2023-11-16 21:07:57,112 - t_bot.py - main - INFO - Start work
+2023-11-16 21:08:00,064 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 21:08:00,064 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 21:08:00,064 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 21:08:00,064 - user_comand.py - giff - INFO - Write inf in db about user
+2023-11-16 21:08:06,768 - db.py - add_users_data - INFO - duplicate key value violates unique constraint "users_data_pkey"
+DETAIL:  Key (last_name)=(Третяков) already exists.
+
+2023-11-16 21:08:06,768 - db.py - add_users_data - INFO - duplicate key value violates unique constraint "users_data_pkey"
+DETAIL:  Key (last_name)=(Третяков) already exists.
+
+2023-11-16 21:08:06,768 - db.py - add_users_data - INFO - duplicate key value violates unique constraint "users_data_pkey"
+DETAIL:  Key (last_name)=(Третяков) already exists.
+
+2023-11-16 21:08:06,768 - db.py - add_users_data - INFO - duplicate key value violates unique constraint "users_data_pkey"
+DETAIL:  Key (last_name)=(Третяков) already exists.
+

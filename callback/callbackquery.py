@@ -4,6 +4,10 @@ from contextlib import suppress
 from aiogram import Router, F
 from keibords.fabryks import Pagination, paginator
 from handlers.user_comand import Giflist
+from log_conf.log import BasicLog
+
+b_log = BasicLog()
+log = b_log.log_config()
 
 router = Router()
 
@@ -32,5 +36,6 @@ async def pagination_handler(call: CallbackQuery, callback_data: Pagination):
                 reply_markup=paginator(page)
             )
         await call.answer()
-    except IndexError:
-        print('Out of range')
+    except IndexError as ex:
+        log.info(f'out of range: {ex}')
+

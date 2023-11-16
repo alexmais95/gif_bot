@@ -3,6 +3,7 @@ from giphy_client.rest import ApiException
 from settings.settings import API_GIF
 
 
+
 class Gif:
     def __init__(self):
         self.api_instance = giphy_client.DefaultApi()
